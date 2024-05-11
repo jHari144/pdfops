@@ -6,7 +6,7 @@ from PyPDF2 import PdfMerger
 import PyPDF2
 import pandas as pd
 
-BUFFER_DIR = "/home/jhari/scripts/pdofile/buffer/" # Change this to your desired buffer directory
+BUFFER_DIR = "<your/buffer/directory>" # Change this to your desired buffer directory
 EPILOG ="""
 pdfops is a command line application that can be used to perform operations on PDF files and images.
 The application can perform the following operations:
